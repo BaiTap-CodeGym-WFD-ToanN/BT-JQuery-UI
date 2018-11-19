@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DatePicker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top" style="background: black">
+    <ul class="nav " id="nav">
+        <li class="nav-item">
+            <a href="Home.html" class="nav-link text-light">
+                <i class="fas fa-home"></i> Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="#" role="button"
+               aria-haspopup="true"
+               aria-expanded="false">
+                <i class="fas fa-book"></i> jQuery UI</a>
+            <div class="dropdown-menu" style="width: 400px">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a class="dropdown-item" href="dragable.html">Draggable</a>
+                        <a class="dropdown-item" href="dropable.html">Droppable</a>
+                        <a class="dropdown-item" href="selectable.html">Selectable</a>
+                        <a class="dropdown-item" href="sortable.html">Sortable</a>
+                        <a class="dropdown-item" href="accordion.html">Accordion</a>
+                        <a class="dropdown-item" href="autocomplete.html">Autocomplete</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a class="dropdown-item" href="dialog.html">Dialog</a>
+                        <a class="dropdown-item" href="progressbar.html">Progressbar</a>
+                        <a class="dropdown-item" href="spinner.html">Spinner</a>
+                        <a class="dropdown-item" href="addClass.html">Add class</a>
+                        <a class="dropdown-item" href="removeClass.html">Remove class</a>
+                        <a class="dropdown-item" href="datepicker.html">Datepicker</a>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a href="https://jqueryui.com/" class="nav-link text-light">
+                <i class="fab fa-js-square"></i> About</a>
+        </li>
+    </ul>
+</nav>
+<div style="margin: 120px auto;text-align: center">
+    <iframe style="height: 430px" class="col-sm-6 bg-white"
+            src="https://jqueryui.com/resources/demos/datepicker/default.html"></iframe>
+    <br>
+    <br>
+    <i class="text-light">Select a date from a popup or inline calendar
+    </i>
+    <br>
+    <br>
+    <button class="btn btn-light">Go To Jquery Page</button>
+</div>
+<script>
+    $("button").on("click", function () {
+        window.location.href = "https://jqueryui.com/accordion/";
+    })
+</script>
+</body>
+</html>
